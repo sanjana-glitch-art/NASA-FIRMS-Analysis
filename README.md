@@ -78,10 +78,9 @@ set(df22.columns) == set(df23.columns) == set(df24.columns)  # True
 
 ## 4. Null Value Check
 
-Checked for missing values across all columns both as raw counts and as a percentage of total rows.
+Checked for missing values across all columns as a raw count of total rows.
 ```python
 df_all.isna().sum()
-(df_all.isna().sum() / len(df_all)) * 100
 ```
 
 
