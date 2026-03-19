@@ -382,8 +382,7 @@ NASA-FIRMS-Analysis/
 │   └── NASA_FIRMS_2022-24.csv                      
 │
 ├── dashboards/
-│   ├── app.py                  
-│   └── tableau/                                        
+│   ├── plotly_visuals.py                                                         
 │
 └── README.md                            
 ```
