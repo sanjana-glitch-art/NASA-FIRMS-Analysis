@@ -163,8 +163,6 @@ df_all.to_csv('NASA_FIRMS_2022-24.csv', index=False)
 ```
 ---
 
-## 4. Exploratory Data Analysis
-
 **Total visualizations:** 8
 
 ### EDA 1 — Annual Fire Count Comparison
@@ -372,7 +370,7 @@ python app.py
 | 2 | Random Forest Regressor | Handles non-linearity, provides feature importance scores |
 | 3 | XGBoost / LightGBM | Expected best performer — gradient boosting handles skewed targets and outliers well on tabular data |
 
-## 8. Project Structure
+## 7. Project Structure
 
 ```
 NASA-FIRMS-Analysis/
@@ -420,8 +418,5 @@ pip install pandas numpy matplotlib seaborn plotly dash dash-bootstrap-component
 | Plotly Dash Documentation | https://dash.plotly.com/ |
 | Tableau Public | https://public.tableau.com/ |
 | 2023 Canadian Wildfire Season | https://cwfis.cfs.nrcan.gc.ca/ |
-
----
-
 *DATA 230 — San José State University — College of Information, Data and Society*
 *Group 6 | Sanjana Thummalapalli · Elina Yin · Mansi Verma · Xuanhua (Carol) Li*
